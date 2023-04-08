@@ -1,0 +1,110 @@
+$ TPR netlist written by S-Edit Win32 6.00
+$ Written on Jan 13, 2023 at 19:32:46
+C Inv A Out;
+UInv_1 N1 MasterSlaveDFlipFlop1bit_1/N20;
+C Inv A Out;
+UInv_2 N2 MasterSlaveDFlipFlop1bit_1/N11;
+C NAND2 A B Out;
+UNAND2_1 N1 N2 MasterSlaveDFlipFlop1bit_1/N18;
+C NAND2 A B Out;
+UNAND2_2 N2 MasterSlaveDFlipFlop1bit_1/N20 MasterSlaveDFlipFlop1bit_1/N14;
+C NAND2 A B Out;
+UNAND2_3 MasterSlaveDFlipFlop1bit_1/N18 MasterSlaveDFlipFlop1bit_1/N8
++  MasterSlaveDFlipFlop1bit_1/N12;
+C NAND2 A B Out;
+UNAND2_4 MasterSlaveDFlipFlop1bit_1/N12 MasterSlaveDFlipFlop1bit_1/N14
++  MasterSlaveDFlipFlop1bit_1/N8;
+C NAND2 A B Out;
+UNAND2_5 MasterSlaveDFlipFlop1bit_1/N12 MasterSlaveDFlipFlop1bit_1/N11
++  MasterSlaveDFlipFlop1bit_1/N6;
+C NAND2 A B Out;
+UNAND2_6 MasterSlaveDFlipFlop1bit_1/N11 MasterSlaveDFlipFlop1bit_1/N8
++  MasterSlaveDFlipFlop1bit_1/N2;
+C NAND2 A B Out;
+UNAND2_7 MasterSlaveDFlipFlop1bit_1/N6 N4 N5;
+C NAND2 A B Out;
+UNAND2_8 N5 MasterSlaveDFlipFlop1bit_1/N2 N4;
+C Inv A Out;
+UInv_1 N10 MasterSlaveDFlipFlop1bit_2/N20;
+C Inv A Out;
+UInv_2 N9 MasterSlaveDFlipFlop1bit_2/N11;
+C NAND2 A B Out;
+UNAND2_1 N10 N9 MasterSlaveDFlipFlop1bit_2/N18;
+C NAND2 A B Out;
+UNAND2_2 N9 MasterSlaveDFlipFlop1bit_2/N20 MasterSlaveDFlipFlop1bit_2/N14;
+C NAND2 A B Out;
+UNAND2_3 MasterSlaveDFlipFlop1bit_2/N18 MasterSlaveDFlipFlop1bit_2/N8
++  MasterSlaveDFlipFlop1bit_2/N12;
+C NAND2 A B Out;
+UNAND2_4 MasterSlaveDFlipFlop1bit_2/N12 MasterSlaveDFlipFlop1bit_2/N14
++  MasterSlaveDFlipFlop1bit_2/N8;
+C NAND2 A B Out;
+UNAND2_5 MasterSlaveDFlipFlop1bit_2/N12 MasterSlaveDFlipFlop1bit_2/N11
++  MasterSlaveDFlipFlop1bit_2/N6;
+C NAND2 A B Out;
+UNAND2_6 MasterSlaveDFlipFlop1bit_2/N11 MasterSlaveDFlipFlop1bit_2/N8
++  MasterSlaveDFlipFlop1bit_2/N2;
+C NAND2 A B Out;
+UNAND2_7 MasterSlaveDFlipFlop1bit_2/N6 N12 N13;
+C NAND2 A B Out;
+UNAND2_8 N13 MasterSlaveDFlipFlop1bit_2/N2 N12;
+C Inv A Out;
+UInv_1 N13 MasterSlaveDFlipFlop1bit_3/N20;
+C Inv A Out;
+UInv_2 N14 MasterSlaveDFlipFlop1bit_3/N11;
+C NAND2 A B Out;
+UNAND2_1 N13 N14 MasterSlaveDFlipFlop1bit_3/N18;
+C NAND2 A B Out;
+UNAND2_2 N14 MasterSlaveDFlipFlop1bit_3/N20 MasterSlaveDFlipFlop1bit_3/N14;
+C NAND2 A B Out;
+UNAND2_3 MasterSlaveDFlipFlop1bit_3/N18 MasterSlaveDFlipFlop1bit_3/N8
++  MasterSlaveDFlipFlop1bit_3/N12;
+C NAND2 A B Out;
+UNAND2_4 MasterSlaveDFlipFlop1bit_3/N12 MasterSlaveDFlipFlop1bit_3/N14
++  MasterSlaveDFlipFlop1bit_3/N8;
+C NAND2 A B Out;
+UNAND2_5 MasterSlaveDFlipFlop1bit_3/N12 MasterSlaveDFlipFlop1bit_3/N11
++  MasterSlaveDFlipFlop1bit_3/N6;
+C NAND2 A B Out;
+UNAND2_6 MasterSlaveDFlipFlop1bit_3/N11 MasterSlaveDFlipFlop1bit_3/N8
++  MasterSlaveDFlipFlop1bit_3/N2;
+C NAND2 A B Out;
+UNAND2_7 MasterSlaveDFlipFlop1bit_3/N6 N16 N1;
+C NAND2 A B Out;
+UNAND2_8 N1 MasterSlaveDFlipFlop1bit_3/N2 N16;
+C Inv A Out;
+UInv_1 N5 MasterSlaveDFlipFlop1bit_4/N20;
+C Inv A Out;
+UInv_2 N6 MasterSlaveDFlipFlop1bit_4/N11;
+C NAND2 A B Out;
+UNAND2_1 N5 N6 MasterSlaveDFlipFlop1bit_4/N18;
+C NAND2 A B Out;
+UNAND2_2 N6 MasterSlaveDFlipFlop1bit_4/N20 MasterSlaveDFlipFlop1bit_4/N14;
+C NAND2 A B Out;
+UNAND2_3 MasterSlaveDFlipFlop1bit_4/N18 MasterSlaveDFlipFlop1bit_4/N8
++  MasterSlaveDFlipFlop1bit_4/N12;
+C NAND2 A B Out;
+UNAND2_4 MasterSlaveDFlipFlop1bit_4/N12 MasterSlaveDFlipFlop1bit_4/N14
++  MasterSlaveDFlipFlop1bit_4/N8;
+C NAND2 A B Out;
+UNAND2_5 MasterSlaveDFlipFlop1bit_4/N12 MasterSlaveDFlipFlop1bit_4/N11
++  MasterSlaveDFlipFlop1bit_4/N6;
+C NAND2 A B Out;
+UNAND2_6 MasterSlaveDFlipFlop1bit_4/N11 MasterSlaveDFlipFlop1bit_4/N8
++  MasterSlaveDFlipFlop1bit_4/N2;
+C NAND2 A B Out;
+UNAND2_7 MasterSlaveDFlipFlop1bit_4/N6 N8 N7;
+C NAND2 A B Out;
+UNAND2_8 N7 MasterSlaveDFlipFlop1bit_4/N2 N8;
+CP PadInC DataIn DataInB DataInUnBuf Pad;
+UPadInC_1 N9 N20 N19 CLK1;
+CP PadInC DataIn DataInB DataInUnBuf Pad;
+UPadInC_2 N14 N23 N22 CLK2;
+CP PadInC DataIn DataInB DataInUnBuf Pad;
+UPadInC_3 N10 N29 N28 Serial_Input;
+CP PadInC DataIn DataInB DataInUnBuf Pad;
+UPadInC_4 N2 N30 N25 CLK3;
+CP PadInC DataIn DataInB DataInUnBuf Pad;
+UPadInC_5 N6 N33 N32 CLK4;
+CP PadOut DataOut Pad;
+UPadOut_1 N7 SerialOutput;

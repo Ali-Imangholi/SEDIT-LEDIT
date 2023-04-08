@@ -1,0 +1,18 @@
+* "simulator" "HSPICE" 
+* "version" "H-2013.03-SP2 64-BIT"
+* "format" "HSP"
+* "rundate" "23:37:30 12/30/2017 "
+* "netlist" "nand.sp "
+* "runtitle" "* circuit extracted by tanner research's l-edit version 8.30 / extract"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ a =   0.            
++ b =   0.            
++ j =  22.4086m       
++ out = 999.9999m       
++ vdd =   1.0000        
+***   END: Saved Operating Point ***                     
